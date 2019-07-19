@@ -1,0 +1,80 @@
+2019-06-11 20:53:25.699  INFO 4568 --- [main] c.s.billing.CustomerApiApplication       : Starting CustomerApiApplication on govind-PC with PID 4568 (D:\SpringBoot\EmployeeManagementAPI\Customer-API\target\classes started by govind in D:\SpringBoot\EmployeeManagementAPI\Customer-API)
+2019-06-11 20:53:25.760  INFO 4568 --- [main] c.s.billing.CustomerApiApplication       : No active profile set, falling back to default profiles: default
+2019-06-11 20:53:31.531  INFO 4568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-11 20:53:31.834  INFO 4568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 282ms. Found 1 repository interfaces.
+2019-06-11 20:53:34.827  INFO 4568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9099 (http)
+2019-06-11 20:53:35.010  INFO 4568 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-11 20:53:35.012  INFO 4568 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-11 20:53:35.757  INFO 4568 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-11 20:53:35.758  INFO 4568 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9357 ms
+2019-06-11 20:53:38.607  INFO 4568 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-06-11 20:53:38.608  INFO 4568 --- [main] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+2019-06-11 20:53:39.089  INFO 4568 --- [cluster-ClusterId{value='5cffc77a9d33f711d8878b18', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:8}] to localhost:27017
+2019-06-11 20:53:39.105  INFO 4568 --- [cluster-ClusterId{value='5cffc77a9d33f711d8878b18', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 10]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=11902047}
+2019-06-11 20:53:39.109  INFO 4568 --- [cluster-ClusterId{value='5cffc77a9d33f711d8878b18', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+2019-06-11 20:53:43.088  INFO 4568 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-11 20:53:43.982  INFO 4568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9099 (http) with context path ''
+2019-06-11 20:53:43.990  INFO 4568 --- [main] c.s.billing.CustomerApiApplication       : Started CustomerApiApplication in 22.48 seconds (JVM running for 30.082)
+2019-06-11 20:54:01.751  INFO 4568 --- [http-nio-9099-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-11 20:54:01.752  INFO 4568 --- [http-nio-9099-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-11 20:54:01.795  INFO 4568 --- [http-nio-9099-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 42 ms
+2019-06-11 20:54:02.286 DEBUG 4568 --- [http-nio-9099-exec-3] o.s.data.mongodb.core.MongoTemplate      : find using query: { } fields: Document{{}} for class: class com.slashcode.billing.dto.Customer in collection: order_db
+2019-06-11 20:54:02.542  INFO 4568 --- [http-nio-9099-exec-3] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:10}] to localhost:27017
+2019-06-11 20:54:57.483  INFO 4568 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-06-11 20:54:57.497  INFO 4568 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-11 20:54:57.510  INFO 4568 --- [RMI TCP Connection(2)-127.0.0.1] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:10}] to localhost:27017 because the pool has been closed.
+2019-06-11 20:55:10.435  INFO 4552 --- [main] c.s.billing.CustomerApiApplication       : Starting CustomerApiApplication on govind-PC with PID 4552 (D:\SpringBoot\EmployeeManagementAPI\Customer-API\target\classes started by govind in D:\SpringBoot\EmployeeManagementAPI\Customer-API)
+2019-06-11 20:55:10.453  INFO 4552 --- [main] c.s.billing.CustomerApiApplication       : No active profile set, falling back to default profiles: default
+2019-06-11 20:55:13.069  INFO 4552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-11 20:55:13.299  INFO 4552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 215ms. Found 1 repository interfaces.
+2019-06-11 20:55:15.110  INFO 4552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9099 (http)
+2019-06-11 20:55:15.213  INFO 4552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-11 20:55:15.216  INFO 4552 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-11 20:55:15.621  INFO 4552 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-11 20:55:15.623  INFO 4552 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4971 ms
+2019-06-11 20:55:18.351  INFO 4552 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-06-11 20:55:18.352  INFO 4552 --- [main] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+2019-06-11 20:55:18.650  INFO 4552 --- [cluster-ClusterId{value='5cffc7de9d33f711c8e51d8c', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:13}] to localhost:27017
+2019-06-11 20:55:18.679  INFO 4552 --- [cluster-ClusterId{value='5cffc7de9d33f711c8e51d8c', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 10]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=20732453}
+2019-06-11 20:55:18.683  INFO 4552 --- [cluster-ClusterId{value='5cffc7de9d33f711c8e51d8c', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+2019-06-11 20:55:20.230  INFO 4552 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-11 20:55:20.920  INFO 4552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9099 (http) with context path ''
+2019-06-11 20:55:20.929  INFO 4552 --- [main] c.s.billing.CustomerApiApplication       : Started CustomerApiApplication in 12.028 seconds (JVM running for 14.001)
+2019-06-11 21:03:42.086  INFO 4552 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-06-11 21:03:42.094  INFO 4552 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-11 21:10:12.262  INFO 5676 --- [main] c.s.billing.CustomerApiApplication       : Starting CustomerApiApplication on govind-PC with PID 5676 (D:\SpringBoot\EmployeeManagementAPI\Customer-API\target\classes started by govind in D:\SpringBoot\EmployeeManagementAPI\Customer-API)
+2019-06-11 21:10:12.276  INFO 5676 --- [main] c.s.billing.CustomerApiApplication       : No active profile set, falling back to default profiles: default
+2019-06-11 21:10:15.172  INFO 5676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-11 21:10:15.454  INFO 5676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 265ms. Found 1 repository interfaces.
+2019-06-11 21:10:17.413  INFO 5676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9099 (http)
+2019-06-11 21:10:17.517  INFO 5676 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-11 21:10:17.518  INFO 5676 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-11 21:10:17.989  INFO 5676 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-11 21:10:17.990  INFO 5676 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5202 ms
+2019-06-11 21:10:20.297  INFO 5676 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-06-11 21:10:20.298  INFO 5676 --- [main] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+2019-06-11 21:10:20.574  INFO 5676 --- [cluster-ClusterId{value='5cffcb649d33f7162c036e10', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:42}] to localhost:27017
+2019-06-11 21:10:20.591  INFO 5676 --- [cluster-ClusterId{value='5cffcb649d33f7162c036e10', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 10]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10705156}
+2019-06-11 21:10:20.605  INFO 5676 --- [cluster-ClusterId{value='5cffcb649d33f7162c036e10', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+2019-06-11 21:10:22.981  INFO 5676 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-11 21:10:23.675  INFO 5676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9099 (http) with context path ''
+2019-06-11 21:10:23.683  INFO 5676 --- [main] c.s.billing.CustomerApiApplication       : Started CustomerApiApplication in 13.989 seconds (JVM running for 16.217)
+2019-06-11 21:12:40.295  INFO 5676 --- [http-nio-9099-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-11 21:12:40.297  INFO 5676 --- [http-nio-9099-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-11 21:12:40.346  INFO 5676 --- [http-nio-9099-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 47 ms
+2019-06-11 21:12:40.869 DEBUG 5676 --- [http-nio-9099-exec-2] o.s.data.mongodb.core.MongoTemplate      : find using query: { } fields: Document{{}} for class: class com.slashcode.billing.dto.Customer in collection: order_db
+2019-06-11 21:12:41.502  INFO 5676 --- [http-nio-9099-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:47}] to localhost:27017
+2019-06-11 21:22:46.843 DEBUG 5676 --- [http-nio-9099-exec-4] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "custId" : 100 } fields: Document{{}} for class: class com.slashcode.billing.dto.Customer in collection: order_db
+2019-06-11 21:22:46.996 DEBUG 5676 --- [http-nio-9099-exec-4] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "_id" : 100 } fields: { } in db.collection: Shopping.order_db
+2019-06-11 21:24:28.311 DEBUG 5676 --- [http-nio-9099-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, custName, products, address, _class]
+2019-06-11 21:25:02.794 DEBUG 5676 --- [http-nio-9099-exec-10] o.s.data.mongodb.core.MongoTemplate      : find using query: { } fields: Document{{}} for class: class com.slashcode.billing.dto.Customer in collection: order_db
+2019-06-11 21:25:57.784 DEBUG 5676 --- [http-nio-9099-exec-9] o.s.data.mongodb.core.MongoTemplate      : Remove using query: { "_id" : 200 } in collection: order_db.
+2019-06-11 21:26:44.058 DEBUG 5676 --- [http-nio-9099-exec-1] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "custId" : 400 } fields: Document{{}} for class: class com.slashcode.billing.dto.Customer in collection: order_db
+2019-06-11 21:26:44.065 DEBUG 5676 --- [http-nio-9099-exec-1] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "_id" : 400 } fields: { } in db.collection: Shopping.order_db
+2019-06-11 21:28:02.661 DEBUG 5676 --- [http-nio-9099-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, custName, products, address, _class]
+2019-06-11 21:28:23.036 DEBUG 5676 --- [http-nio-9099-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, custName, products, address, _class]
+2019-06-11 21:28:57.148 DEBUG 5676 --- [http-nio-9099-exec-8] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "custId" : 400 } fields: Document{{}} for class: class com.slashcode.billing.dto.Customer in collection: order_db
+2019-06-11 21:28:57.150 DEBUG 5676 --- [http-nio-9099-exec-8] o.s.data.mongodb.core.MongoTemplate      : findOne using query: { "_id" : 400 } fields: { } in db.collection: Shopping.order_db
+2019-06-11 21:29:29.165  INFO 5676 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-06-11 21:29:29.215  INFO 5676 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-11 21:29:29.237  INFO 5676 --- [RMI TCP Connection(2)-127.0.0.1] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:47}] to localhost:27017 because the pool has been closed.
